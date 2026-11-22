@@ -1,0 +1,12 @@
+# Built warehouse (recreate with run_demo.sh)
+data/processed/
+
+# Python and Jupyter
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store

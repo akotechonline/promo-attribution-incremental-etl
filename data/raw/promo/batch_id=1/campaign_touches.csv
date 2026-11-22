@@ -1,0 +1,10 @@
+touch_id,order_id,campaign_id,touch_at,channel,source_batch_id
+t100,o1001,cmp10,2018-01-02 09:00:00,paid_search,1
+t101,o1001,cmp20,2018-01-02 09:10:00,social,1
+t102,o1002,cmp20,2018-01-02 12:05:00,social,1
+t103,o1003,cmp30,2018-01-03 07:00:00,email,1
+t104,o1004,cmp10,2018-01-03 12:00:00,paid_search,1
+t105,o1004,cmp20,2018-01-03 12:02:00,social,1
+t106,o1005,cmp30,2018-01-04 08:00:00,email,1
+t107,o1008,cmp10,2018-01-05 19:50:00,paid_search,1
+t108,o1004,cmp20,2018-01-03 12:02:00,social,1

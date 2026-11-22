@@ -1,0 +1,4 @@
+campaign_id,campaign_name,channel,coupon_code,valid_from,valid_to,source_batch_id
+cmp10,NewYearPush,paid_search,NY10,2018-01-01,2018-01-05,1
+cmp20,InfluencerDrop,social,INF5,2018-01-02,2018-01-04,1
+cmp30,LoyaltyEmail,email,LOY3,2018-01-01,2018-01-31,1

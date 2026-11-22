@@ -1,0 +1,9 @@
+order_id,customer_id,order_status,order_purchase_timestamp
+o1001,c1,delivered,2018-01-02 10:15:00
+o1002,c2,delivered,2018-01-02 13:20:00
+o1003,c3,delivered,2018-01-03 09:05:00
+o1004,c2,delivered,2018-01-03 15:30:00
+o1005,c4,delivered,2018-01-04 12:05:00
+o1006,c5,delivered,2018-01-04 17:45:00
+o1007,c6,delivered,2018-01-05 11:10:00
+o1008,c1,delivered,2018-01-05 20:20:00
