@@ -11,8 +11,8 @@ rm -f data/processed/warehouse.duckdb
 echo "1/4  Full build, batch 1 (baseline)"
 "$PY" build.py --root . --mode full --promo-max-batch 1
 
-echo "2/4  Augmented build, batch 2, purchase dates 2018-01-03 to 2018-01-05"
-"$PY" build.py --root . --mode augmented --promo-max-batch 2 --date-start 2018-01-03 --date-end 2018-01-05
+echo "2/4  Augmented build with batch 2 (changed dates are detected automatically)"
+"$PY" build.py --root . --mode augmented --promo-max-batch 2
 
 echo "3/4  Full rebuild with batch 2"
 "$PY" build.py --root . --mode full --promo-max-batch 2

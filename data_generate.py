@@ -153,6 +153,9 @@ def generate_promo_batches(paths: Paths, seed: int) -> None:
             ("t105", "o1004", "cmp20", "2018-01-03 12:02:00", "social"),
             ("t106", "o1005", "cmp30", "2018-01-04 08:00:00", "email"),
             ("t107", "o1008", "cmp10", "2018-01-05 19:50:00", "paid_search"),
+            # Touch on a day cmp20 is not valid in batch 1 (valid_to 2018-01-04).
+            # Batch 2 extends cmp20 to 2018-01-05, so this touch starts to count.
+            ("t109", "o1007", "cmp20", "2018-01-05 09:30:00", "social"),
             # Injected duplicate logical touch (failure mode).
             ("t108", "o1004", "cmp20", "2018-01-03 12:02:00", "social"),
         ],
